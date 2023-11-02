@@ -1,0 +1,141 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0%;
+}
+section {
+    margin: 0px;
+    padding: 0;
+    height: 100vh;
+    background-color: #e4e4e4;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.message {
+    border: 1em;
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    width: 50vh;
+    justify-content: right;
+}
+.img-perfil {
+    height: 30px;
+    border-radius: 50%;
+    margin: 10px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+.perfil {
+    display: flex;
+    align-items: center;
+}
+.perfil i{
+    color: #949393;
+    margin: 5px;
+} 
+.name-perfil {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0%;
+    padding: 0%
+}
+.name-status {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+}
+.status {
+    font-size: 10px;
+    margin: 0%;
+    padding: 0%;
+}
+.icon {
+    display: flex;
+    flex-direction: row;
+
+}
+.new-chat {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn {
+    background-color: rgb(181, 145, 214);
+    padding: 10px;
+    width: 50%;
+    text-align: center;
+}
+.chat {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+.btn:hover {
+    background-color: rgb(144, 64, 219);
+}
+ul{
+    margin: 0px;
+    padding: 0%;
+}
+li {
+    list-style: none;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-left: 10px;
+}
+.img-custom {
+    height: 40px;
+    border-radius: 50%;
+    margin: 10px;
+}
+.contacto-message {
+    display: flex;
+    flex-direction: column;
+
+}
+.contact-name {
+    font-size: 12px;
+    font-weight: bolder;
+    margin: 0%;
+    padding: 0%;
+}
+hr {
+    margin: 0%;
+}
+.contact-msg {
+    font-size: 11px;
+    margin: 0%;
+}
+.principal {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    border: 4px;
+}
+h1 {
+    font-size: 40px;
+    margin: 0;
+    margin-top: 15px;
+    font-weight:400;
+}
+.txt-principal {
+    font-size: 14px;
+    width: 60vh;
+    margin-top: 0px;
+}
+.negrita {
+    font-weight: bold;
+}
+.principal img {
+    height: 200px;
+    border-radius: 5%;
+}
